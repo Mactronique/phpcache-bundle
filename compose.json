@@ -1,0 +1,29 @@
+{
+    "name": "mactronique/phpcache-bundle",
+    "description": "Bundler wrapper for phpcache library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jean-Baptiste Nahan",
+            "email": "jbnahan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "symfony/symfony": ">2.3",
+        "mactronique/phpcache": "~1.0"
+    },
+    "require-dev": {
+        "atoum/atoum": "master-dev",
+        "atoum/atoum-bundle": "1.1.*@dev"
+    },
+    "autoload": {
+        "psr-0": { "Mactronique\\Bundle\\PhpCacheBundle": "" }
+    },
+    "target-dir": "Mactronique/Bundle/PhpCacheBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
