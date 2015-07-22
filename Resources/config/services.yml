@@ -1,3 +1,3 @@
 services:
     mactronique_cache.phpcache:
-         class: Mactronique\PhpCache\Driver\Service\PhpCache
+         class: Mactronique\PhpCache\Service\PhpCache

@@ -1,5 +1,5 @@
 services:
     mactronique_cache.wincache:
-        class: Mactronique\PhpCache\Driver\Driver\WincacheDriver
+        class: Mactronique\PhpCache\Driver\WincacheDriver
         tags:
             - { name: mactronique_cache.driver }
