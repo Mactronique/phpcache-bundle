@@ -24,5 +24,13 @@ class MactroniquePhpCacheExtension extends Extension
 
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
+
+        foreach ($config['drivers'] as $key => $value) {
+            if (isset($value['options'])) {
+                $container->setParameter('mactronique_cache.'.$value['name'].'.options', $value['options']);
+            }
+            $loader->load('drivers/'.$value['name'].'.yml');
+        }
+
     }
 }

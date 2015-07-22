@@ -1,0 +1,5 @@
+services:
+    mactronique_cache.xcache:
+        class: Mactronique\PhpCache\Driver\Driver\XcacheDriver
+        tags:
+            - { name: mactronique_cache.driver }
