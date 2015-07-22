@@ -1,6 +1,7 @@
 {
     "name": "mactronique/phpcache-bundle",
-    "description": "Bundler wrapper for phpcache library",
+    "description": "Bundle wrapper for phpcache library",
+    "keyword": ["php", "cache", "symfony", "bundle"],
     "license": "MIT",
     "authors": [
         {
