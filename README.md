@@ -17,7 +17,8 @@ mactronique_php_cache:
 		-
 			name: memcached
 			options:
-				server: 127.0.0.1
-				port: 11211
-				sharing: 100
+				-
+					server: 127.0.0.1
+					port: 11211
+					sharing: 100
 ```
