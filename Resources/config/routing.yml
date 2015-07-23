@@ -1,3 +1,7 @@
 mactronique_php_cache_homepage:
     path:     /hello/{name}
     defaults: { _controller: MactroniquePhpCacheBundle:Default:index }
+
+mactronique_php_cache_show:
+    path:     /hello
+    defaults: { _controller: MactroniquePhpCacheBundle:Default:show }
