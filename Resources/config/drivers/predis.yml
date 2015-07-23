@@ -1,0 +1,5 @@
+services:
+    mactronique_cache.predis:
+        class: Mactronique\PhpCache\Driver\PredisDriver
+        tags:
+            - { name: mactronique_cache.driver }

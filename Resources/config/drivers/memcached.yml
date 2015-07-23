@@ -1,0 +1,5 @@
+services:
+    mactronique_cache.memcached:
+        class: Mactronique\PhpCache\Driver\MemcachedDriver
+        tags:
+            - { name: mactronique_cache.driver }

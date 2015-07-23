@@ -1,0 +1,5 @@
+services:
+    mactronique_cache.null:
+        class: Mactronique\PhpCache\Driver\NullDriver
+        tags:
+            - { name: mactronique_cache.driver }
