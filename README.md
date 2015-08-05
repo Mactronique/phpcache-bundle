@@ -1,6 +1,9 @@
 # phpcache-bundle
 
 [![Dependency Status](https://www.versioneye.com/user/projects/55c267d86537620017002ace/badge.svg?style=flat)](https://www.versioneye.com/user/projects/55c267d86537620017002ace)
+[![Latest Stable Version](https://poser.pugx.org/mactronique/phpcache-bundle/v/stable)](https://packagist.org/packages/mactronique/phpcache-bundle)
+[![Latest Unstable Version](https://poser.pugx.org/mactronique/phpcache-bundle/v/unstable)](https://packagist.org/packages/mactronique/phpcache-bundle)
+[![License](https://poser.pugx.org/mactronique/phpcache-bundle/license)](https://packagist.org/packages/mactronique/phpcache-bundle)
 
 ## Install
 
