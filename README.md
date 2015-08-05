@@ -1,5 +1,7 @@
 # phpcache-bundle
 
+[![Dependency Status](https://www.versioneye.com/user/projects/55c267d86537620017002ace/badge.svg?style=flat)](https://www.versioneye.com/user/projects/55c267d86537620017002ace)
+
 ## Install
 
 ```
