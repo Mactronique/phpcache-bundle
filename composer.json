@@ -10,8 +10,8 @@
         }
     ],
     "require": {
-        "php": ">=5.4",
-        "symfony/symfony": ">2.3",
+        "php": ">=5.5.9",
+        "symfony/framework-bundle": "~2.3|~3.0",
         "mactronique/phpcache": "~1.0"
     },
     "require-dev": {
