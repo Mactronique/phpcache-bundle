@@ -50,6 +50,25 @@ mactronique_php_cache:
             name: "null"
 ```
 
+# Use
+
+In controller : 
+```
+// Set value into key for 30 seconds
+$this->get('mactronique_cache.phpcache')->set('key', 'value', 30);
+
+// Set value into key
+$this->get('mactronique_cache.phpcache')->set('key', 'value');
+
+//get key
+$this->get('mactronique_cache.phpcache')->get('key');
+
+//check if key exists
+$this->get('mactronique_cache.phpcache')->exists('key');
+
+//remove key
+$this->get('mactronique_cache.phpcache')->remove('key');
+```
 # Contributing
 
 Please fork main repo and send a pull request with your change.
