@@ -32,6 +32,8 @@ class Configuration implements ConfigurationInterface
                             ->cannotBeEmpty()
                         ->end()
                         ->arrayNode('options')
+                            ->useAttributeAsKey('opt_name', true)
+                            ->prototype('scalar')->end()
                         ->end()
                     ->end()
                 ->end()

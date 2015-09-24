@@ -1,5 +1,6 @@
 services:
     mactronique_cache.redis:
         class: Mactronique\PhpCache\Driver\RedisDriver
+        arguments: ['%mactronique_cache.redis.options%']
         tags:
             - { name: mactronique_cache.driver }

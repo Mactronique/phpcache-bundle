@@ -31,6 +31,14 @@ mactronique_php_cache:
     drivers:
         -
             name: xcache
+        -
+            name: redis
+            options:
+                    host: 127.0.0.1
+                    port: 6379
+                    password: ''
+                    database: 1
+                    timeout: 1
 		-
 			name: memcached
 			options:
