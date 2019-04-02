@@ -6,7 +6,7 @@
     "authors": [
         {
             "name": "Jean-Baptiste Nahan",
-            "email": "jbnahan@gmail.com"
+            "email": "macintoshplus@users.noreply.github.com"
         }
     ],
     "require": {
@@ -26,5 +26,6 @@
         "branch-alias": {
             "dev-master": "1.x-dev"
         }
-    }
+    },
+    "abandoned": "doctrine/doctrine-cache-bundle"
 }
